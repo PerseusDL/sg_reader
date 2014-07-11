@@ -13,6 +13,7 @@ class Api < Sinatra::Base
   DATA_PATH = File.expand_path("../../../data", __FILE__)
 
   get '/:doc' do
+    content_type 'text/html'
     File.read(File.join(DATA_PATH, params[:doc]))
   end
 end
