@@ -1,16 +1,8 @@
 # SgReader
 
-TODO: Write a gem description
+Service to access HTML files of Smyth's A Greek Grammar for Colleges
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'sg_reader'
-
-And then execute:
-
-    $ bundle
 
 Or install it yourself as:
 
@@ -18,7 +10,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Right now this Sinatra server is basically faking a static file server -
+more features will be added at a later stage.
 
 ## Contributing
 
